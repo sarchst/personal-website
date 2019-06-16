@@ -5,11 +5,54 @@ Description: My personal websites custom theme
 */
 @import url('https://fonts.googleapis.com/css?family=Antic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
 
 h1 {
-    color: #524b4b;
-    font-family: 'Antic';
+    font-family: 'Amatic SC', cursive;
     font-size: 80px;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+    
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #838484;
+
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #838484;
+
+}
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #838484;
+    
+}
+
+h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #838484;
+    
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #838484;
 }
 
 /* HEADER */
@@ -27,11 +70,6 @@ h1 {
 .my-logo {
     width: 150px;
     height: auto;
-}
-
-
-.title h1 {
-    color: green;
 }
 
 #header-menu li {
@@ -52,4 +90,43 @@ h1 {
 
 #header-menu a:hover {
     color: pink;
+}
+
+/* RESUME */
+
+.three-grid {
+	display: grid;
+    grid-template-columns: 33% 33% 33%;
+	text-align: left;
+	column-gap: 5px;
+}
+
+.three-grid div {
+    background-color: #f7f8f8;
+    padding: 20px;
+}
+
+.summary {
+   
+}
+
+.languages {
+    
+}
+
+.tools-and-frameworks {
+   
+}
+
+.two-grid {
+	display: grid;
+    grid-template-columns: 50% 50%;
+	text-align: left;
+	column-gap: 5px;
+}
+
+.two-grid div {
+    background-color: #f7f8f8;
+    padding: 20px;
+
 }
