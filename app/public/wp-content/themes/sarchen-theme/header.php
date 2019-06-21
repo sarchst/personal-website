@@ -8,9 +8,11 @@
     <meta charset="utf-8">
     <title>Sarchen Theme</title>
 </head>
-<div horizontal layout class="header">
+<div class="header">
     <div class="my-logo">
-        <img src="http://sarchenstarke2.local/wp-content/uploads/2019/06/site-logo.png" alt="Sarchen Starke">
+        <a href="<?php echo get_home_url(); ?>">
+            <img src="http://sarchenstarke2.local/wp-content/uploads/2019/06/round-photo-close-up-1.png" alt="Sarchen Starke">
+        </a>
     </div>
 
     <nav class="nav-menu">

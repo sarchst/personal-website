@@ -24,52 +24,66 @@ h2 {
 h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #838484;
+    color: #597188;
 
 }
 
 h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #838484;
+    color: #597188;
 
 }
 
 h5 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #838484;
+    color: #597188;
     
 }
 
 h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #838484;
+    color: #597188;
     
 }
 
 p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #838484;
+    color: #597188;
+}
+
+/* FRONT PAGE */
+
+.front-page {
+    height: 100px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
 }
 
 /* HEADER */
 .header {
     height: 100px;
     width: 100%;
-    margin: 10px;
     display: flex;
+    background-color: #d6edea;
 }
 .my-logo img {
     max-width:100%;
     max-height:100%;
 }
 
+.my-logo img:hover {
+    opacity: 0.75;
+}
+
 .my-logo {
     width: 150px;
     height: auto;
+    padding-left: 50px;
 }
 
 #header-menu li {
@@ -94,6 +108,12 @@ p {
 
 /* RESUME */
 
+.title h1:last-child {
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
 .three-grid {
 	display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -106,8 +126,15 @@ p {
     padding: 20px;
 }
 
-.summary {
-   
+.three-grid h3 {
+    text-align: center;
+}
+.summary{
+    background-color: black;
+}
+
+.quicklook {
+    text-align: center;
 }
 
 .languages {
@@ -116,6 +143,10 @@ p {
 
 .tools-and-frameworks {
    
+}
+
+.coop {
+    text-align: center;
 }
 
 .two-grid {
@@ -130,3 +161,25 @@ p {
     padding: 20px;
 
 }
+
+/* FRONT PAGE */
+
+.my-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-photo {
+    width: 550px;
+    height: 550px;
+}
+
+.main-info {
+    text-align: center;
+    padding-left: 20px;
+}
+.main-info h2 {
+    font-size: 20px;
+    color: #597188;
+}
+
