@@ -56,12 +56,30 @@ p {
 }
 
 /* ETSY */
+
+.etsy a {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: #597188;
+    font-size: 30px;
+
+}
+
+.etsy a:hover {
+    color: pink;
+}
+.etsy h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+
+}
 .etsy {
-    
+    text-align: center;
+    margin: 5px;
 }
 
 .etsy img {
-    
+    width: 50%;
 }
 
 /* FRONT PAGE */
