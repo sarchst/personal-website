@@ -12,8 +12,8 @@ get_header();
 
 
 <body>
-<div class="container">
-<iframe width=800 height=1100 frameborder=0 scrolling=auto src="http://sarchenstarke2.local/wp-content/uploads/2019/12/Sarchen-Starke-Resume-Coop-header-Feb-11-2019-most-current.pdf"></iframe>
+    <div class="resume-container">
+        <iframe width=800 height=1100 frameborder=0 scrolling=auto src="http://sarchenstarke2.local/wp-content/uploads/2019/12/Sarchen-Starke-Resume-Coop-header-Feb-11-2019-most-current.pdf"></iframe>
     </div>
 </body>
 
