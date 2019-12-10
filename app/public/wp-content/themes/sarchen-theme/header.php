@@ -7,6 +7,7 @@
 <head>
     <meta charset="utf-8">
     <title>Sarchen Theme</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <div class="header">
     <div class="my-logo">
