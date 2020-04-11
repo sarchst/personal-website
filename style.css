@@ -1,0 +1,298 @@
+/*
+Theme Name: Sarchen Theme 
+Author: Sarchen Starke
+Description: My personal websites custom theme
+*/
+@import url('https://fonts.googleapis.com/css?family=Antic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
+
+.resume-container {
+    padding: 30px;
+    width:100%;
+    text-align: center;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    color: #597188;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #597188;
+    
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #597188;
+
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #597188;
+
+}
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #597188;
+    
+}
+
+h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #597188;
+    
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #597188;
+}
+
+/* ETSY */
+
+.etsy a {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: #597188;
+    font-size: 30px;
+
+}
+
+.etsy a:hover {
+    color: pink;
+}
+.etsy h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+
+}
+.etsy {
+    text-align: center;
+    margin: 5px;
+}
+
+.etsy img {
+    width: 50%;
+}
+
+/* FRONT PAGE */
+
+.front-page {
+    height: 100px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+}
+
+/* HEADER */
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: #d6edea;
+}
+.my-logo img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.my-logo img:hover {
+    opacity: 0.75;
+}
+
+.my-logo {
+    width: 100px;
+    height: auto;
+    padding-left: 50px;
+}
+
+#header-menu li {
+    padding-left: 10px;
+    padding-right: 10px;
+	list-style: none;
+    margin: 0 1rem;
+    list-style-type: none;
+    display: inline;
+}
+
+#header-menu a {
+	text-decoration: none;
+    color: #597188;
+    font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+}
+
+#header-menu a:hover {
+    color: pink;
+}
+
+/* RESUME */
+
+.title h1:last-child {
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.three-grid {
+	display: grid;
+    grid-template-columns: 33% 33% 33%;
+	text-align: left;
+	column-gap: 5px;
+}
+
+.three-grid div {
+    background-color: #f7f8f8;
+    padding: 20px;
+}
+
+.three-grid h3 {
+    text-align: center;
+}
+.summary{
+    background-color: #597188;
+}
+
+.quicklook {
+    text-align: center;
+}
+
+.languages {
+    
+}
+
+.tools-and-frameworks {
+   
+}
+
+.coop {
+    text-align: center;
+}
+
+.two-grid {
+	display: grid;
+    grid-template-columns: 50% 50%;
+	text-align: left;
+	column-gap: 5px;
+}
+
+.two-grid div {
+    background-color: #f7f8f8;
+    padding: 20px;
+
+}
+
+/* FRONT PAGE */
+
+.my-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-photo {
+    width: 550px;
+    height: 550px;
+}
+
+.main-info {
+    text-align: center;
+    padding-left: 20px;
+}
+.main-info h2 {
+    font-size: 20px;
+    color: #597188;
+}
+
+/* Cute Profile Box  */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,300);
+body {
+  background-color: #f0f0f0;
+  font-family: roboto;
+}
+.container {
+  width: 400px;
+  margin: 120px auto 120px;
+  background-color: #fff;
+  padding: 0 20px 20px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  text-align: center;
+}
+.container:hover .avatar-flip {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+.container:hover .avatar-flip img:first-child {
+  opacity: 0;
+}
+.container:hover .avatar-flip img:last-child {
+  opacity: 1;
+}
+.avatar-flip {
+  border-radius: 100px;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 13px #f0f0f0;
+  -webkit-box-shadow: 0 0 0 13px #f0f0f0;
+  -moz-box-shadow: 0 0 0 13px #f0f0f0;
+}
+.avatar-flip img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 100px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+.avatar-flip img:first-child {
+  z-index: 1;
+}
+.avatar-flip img:last-child {
+  z-index: 0;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  opacity: 0;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+h4 {
+  font-size: 13px;
+  color: #00baff;
+  letter-spacing: 1px;
+  margin-bottom: 25px
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #666;
+}
